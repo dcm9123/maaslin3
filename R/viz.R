@@ -710,7 +710,8 @@ maaslin3_summary_plot <-
                         summary_plot_file,
                         plot = final_plot,
                         height = height_out,
-                        width = width_out
+                        width = width_out,
+                        limitsize = FALSE
                     )
                 },
                 warning = function(w) {
